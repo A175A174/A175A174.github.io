@@ -12,17 +12,17 @@ description: > # this means to ignore newlines until "Language & timezone"
 ## => Language and Timezone
 ##############################
 lang: zh # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
-## => Author and Social
+## => Author and Social 作者信息
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : Your Name
+  name      : Your Name # 作者名
   url       :
-  avatar    : # path or url of avatar image
-  bio       : I am an amazing person.
+  avatar    : # path or url of avatar image 头像
+  bio       : I am an amazing person. # 简介
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
@@ -33,9 +33,9 @@ author:
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name/
 
 
-## => GitHub Repository (if the site is hosted by GitHub)
+## => GitHub Repository (if the site is hosted by GitHub) 源码仓库
 ##############################
-repository: user_name/repo_name
+repository: user_name/repo_name # 项目所有者 ID/项目名称
 repository_tree: master
 
 
@@ -48,18 +48,20 @@ paths:
   rss     : # "/feed.xml" (default)
 
 
-## => Post
+## => Post 文章配置项
 ##############################
 ## excerpt
 excerpt_separator: <!--more-->
-excerpt_type: html # text (default), html
+excerpt_type: html # text (default), html 
+# text此时摘要为纯文本，会过滤掉一切非文本元素（标题，链接，列表，表格，图片等等），且截取前 350 个字符。
+# html此时摘要为 HTML 文档，与文章内容一致，并且 默认展示整篇文章的内容。若想控制摘要内容，需要在文章中想要显示到的地方加上 <!--more-->
 
-## license
+## license 许可协议
 license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
-## TOC
+## TOC 目录
 toc:
-  selectors: # "h1,h2,h3" (default)
+  selectors: # "h1,h2,h3" (default) 作为文章目录的元素。
 
 
 ## => Markdown Enhancements
@@ -75,18 +77,18 @@ mermaid: # false (default), true
 chart: # false (default), true
 
 
-## => Paginate
+## => Paginate 分页
 ##############################
-paginate: 8
-paginate_path: /page:num # don't change this unless for special need
+paginate: 8 # 每页显示的文章数
+paginate_path: /page:num # don't change this unless for special need 也可以像这样指定分页页面的地址
 
 
-## => Sources
+## => Sources CDN 源
 ##############################
 sources: # bootcdn (default), unpkg
 
 
-## => Comments
+## => Comments 评论
 ##############################
 comments:
   provider: false # false (default), "disqus", "gitalk", "custom"
@@ -106,7 +108,7 @@ comments:
       # - your GitHub Id
 
 
-## => Pageview
+## => Pageview 文章点击量
 ##############################
 pageview:
   provider: false # false (default), "leancloud", "custom"
@@ -118,7 +120,7 @@ pageview:
     app_class : # LeanCloud App class
 
 
-## => Analytics
+## => Analytics 站点统计
 ##############################
 analytics:
   provider: false # false (default), "google", "custom"
