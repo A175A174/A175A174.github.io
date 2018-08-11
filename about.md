@@ -1,5 +1,6 @@
 ---
 layout: article
+title: 关于
 titles:
   en: About
   zh: 关于
@@ -8,7 +9,5 @@ titles:
 author: YHM
 key: page-about
 ---
-
-# =======>
 
 我想试一试，无论结果怎样！
