@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 关于
+title:
 titles:
   en: About
   zh: 关于
