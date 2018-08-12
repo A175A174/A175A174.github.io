@@ -1,6 +1,6 @@
 ---
 layout: article
-title:
+title: 不再犹豫
 titles:
   en: About
   zh: 关于
