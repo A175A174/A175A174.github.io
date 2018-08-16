@@ -92,7 +92,7 @@ public String login(HttpSession session){
 }
 ```
 
-![img](../myres/20180817/20180816003944.png)
+![img](/myres/20180817/20180816003944.png)
 
 可以看到原本存入Session的值被存入了Redis
 
@@ -163,7 +163,7 @@ public String login(HttpSession session){
 }
 ```
 
-![img](../myres/20180817/20180816035732.png)
+![img](/myres/20180817/20180816035732.png)
 
 ## PS：在搭建集群测试环境的时候要用本机IP地址，不要用127.0.0.1。CLUSTER NODES查出来的IP要与XML配置代码上的IP对应，不然启动项目会报 Could not get a resource from the pool 错误。
 
