@@ -23,10 +23,10 @@ author:
   url       :
   avatar    : # path or url of avatar image 头像
   bio       : I am an amazing person. # 简介
-  email     :
+  email     : 156908769@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
-  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : A175A174 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name/
   googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -111,13 +111,13 @@ comments:
 ## => Pageview 文章点击量
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : RTY05ycihc8Q3qsgPDGcUS0c-9Nh9j0Va # LeanCloud App id
+    app_key   : KA289mK7oUK805TXHGhogamL # LeanCloud App key
+    app_class : 6duFFT17gMNFgVgzy9G2tkeo # LeanCloud App class
 
 
 ## => Analytics 站点统计
