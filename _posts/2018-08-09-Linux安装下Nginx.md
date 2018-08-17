@@ -1,6 +1,6 @@
 ---
 title: Linux安装下Nginx
-key: 20180809
+key: 201808091
 tags: TeXt
 ---
 
