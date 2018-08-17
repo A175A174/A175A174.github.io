@@ -1,7 +1,7 @@
 ---
 title: Linux安装下Nginx
 key: 201808091
-tags: Nginx
+tags: Nginx Linux
 ---
 
 # 一、下载
