@@ -1,7 +1,7 @@
 ---
 title: SpringMVC拦截器
 key: 20180815
-tags: TeXt
+tags: Spring
 ---
 
 # 一、工程构建

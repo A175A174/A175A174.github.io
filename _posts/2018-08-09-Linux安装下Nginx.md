@@ -1,7 +1,7 @@
 ---
 title: Linux安装下Nginx
 key: 201808091
-tags: TeXt
+tags: Nginx
 ---
 
 # 一、下载

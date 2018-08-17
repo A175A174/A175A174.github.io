@@ -1,7 +1,7 @@
 ---
 title: Nginx+Tomcat集群搭建
 key: 20180810
-tags: TeXt
+tags: Nginx
 ---
 
 # 作用
