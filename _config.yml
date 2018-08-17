@@ -118,7 +118,7 @@ pageview:
   leancloud:
     app_id    : RTY05ycihc8Q3qsgPDGcUS0c-9Nh9j0Va # LeanCloud App id
     app_key   : KA289mK7oUK805TXHGhogamL # LeanCloud App key
-    app_class : 6duFFT17gMNFgVgzy9G2tkeo # LeanCloud App class
+    app_class : Counter # LeanCloud App class
 
 
 ## => Analytics 站点统计
