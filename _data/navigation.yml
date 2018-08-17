@@ -11,3 +11,9 @@ header:
       zh-Hans:  关于
       zh-Hant:  關於
     url:        /about.html
+  - titles:
+      en:       Github
+      zh:       Github
+      zh-Hans:  Github
+      zh-Hant:  Github
+    url:        https://github.com/A175A174
