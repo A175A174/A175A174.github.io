@@ -91,7 +91,7 @@ sources: # bootcdn (default), unpkg
 ## => Comments 评论
 ##############################
 comments:
-  provider: disqus # false (default), "disqus", "gitalk", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "custom"
 
   ## Disqus
   disqus:
@@ -100,12 +100,13 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
+    clientID    : 92040013616b55d6f584 # GitHub Application Client ID
+    clientSecret: 351c3237e766d7120fbe010e4190dff7f165146b # GitHub Application Client Secret
+    repository  : a175a174.github.io # GitHub repo
+    owner       : a175a174 # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
+      - a175a174
 
 
 ## => Pageview 文章点击量
