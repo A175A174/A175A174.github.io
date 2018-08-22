@@ -5,7 +5,6 @@ highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "t
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : 渐行渐远
-google-site-verification : HPxTp9S10-C1LIwyirxRji3Rj8RYBHuoQgeAxbqC7kM
 description: I have a dream # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
