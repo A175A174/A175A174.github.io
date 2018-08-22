@@ -106,7 +106,7 @@ update user set authentication_string='' where user='root';
 
 ## 3.添加远程访问权限
 
-**开放本机3306端口**
+首先**开放本机3306端口**
 
 ```shell
 iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT
