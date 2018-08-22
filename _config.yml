@@ -6,8 +6,7 @@ url     : # the base hostname & protocol for your site e.g. https://www.someone.
 baseurl : # does not include hostname
 title   : 渐行渐远
 google-site-verification : HPxTp9S10-C1LIwyirxRji3Rj8RYBHuoQgeAxbqC7kM
-description: > # this means to ignore newlines until "Language & timezone"
-  I have a dream
+description: I have a dream > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
