@@ -43,7 +43,7 @@ netstat -ln | grep 3306
 grep "password" /var/log/mysqld.log
 ```
 
-![img](../myres/20180819/20180821000000005.png)
+![img](/myres/20180819/20180821000000005.png)
 
 直接用该密码登陆会要求改密码，最好先进行向导操作
 
