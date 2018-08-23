@@ -110,6 +110,8 @@ update user set authentication_string='' where user='root';
 
 ```shell
 iptables -A INPUT -m state --state NEW -m tcp -p tcp --dport 3306 -j ACCEPT
+# 保存配置
+service iptables save
 ```
 
 修改已有用户
