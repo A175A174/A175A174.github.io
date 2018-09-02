@@ -124,6 +124,7 @@ tags: Spring
 # 二、创建拦截器类
 
 只有一个要求，实现HandlerInterceptor接口即可，然后在SpringMVC配置文件中添加下一，实现后要重写三个方法
+
 方法名称|说明
 :---:|:--:
 preHandle|在请求处理之前进行调用，若该请求存在多个Interceptor ，依据声明顺序依次执行，返回为false表示请求结束，后续的Interceptor和Controller都不会执行；返回true会继续调用下一个 Interceptor的preHandle方法，如果已经是最后一个Interceptor，就会请求Controller中的方法
